@@ -7,8 +7,8 @@ import sys
 import bigan.sia_utilities as network
 import data.sia as data
 from sklearn.metrics import precision_recall_fscore_support
-from data.evaluation import my_confusion_matrix, derive_metric
-from data.evaluations_houssam import do_roc, do_prc, do_prg, save_results
+from utils.evaluations import my_confusion_matrix, derive_metric
+from utils.evaluations import do_roc, do_prc, do_prg, save_results
 RANDOM_SEED = 13
 FREQ_PRINT = 20 # print frequency image tensorboard [20]
 

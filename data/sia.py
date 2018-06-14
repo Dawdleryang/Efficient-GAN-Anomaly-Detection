@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from data.preprocess_data import cross_validation_on_DA_features
 
 logger = logging.getLogger(__name__)
 
